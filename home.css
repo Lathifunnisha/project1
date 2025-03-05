@@ -1,0 +1,446 @@
+.hr-color{
+    height: 2.5px;
+    border: none;
+    background: linear-gradient(to right,rgb(39, 161, 161) 20%, gray 20%);
+}
+header {
+    /* background-color: rgb(72, 69, 75); */
+    display: flex;
+    padding-left: 30px;
+    justify-content: baseline;
+}
+
+nav {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+a {
+    padding: 25px;
+}
+
+nav a:hover {
+    color: rgb(25, 226, 226);
+}
+
+.search {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.search-bar {
+    position: absolute;
+    left: 1001px;
+}
+
+.icons {
+    display: flex;
+    height: 20px;
+    padding-top: 18px;
+    padding-right: 320px;
+    gap:35px;
+}
+
+.banner {
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.categories {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 80px;
+}
+
+.box {
+    height: 220px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    align-content: center;
+    /* padding: 10px; */
+
+}
+
+.box img {
+    width: 135px;
+    height: 160px;
+    border-radius: 20px;
+    padding: auto;
+}
+
+.part-1 {
+    color: rgb(25, 226, 226);
+}
+
+.shop-now {
+    color: white;
+    border: 0;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(86, 189, 189);
+}
+
+.submit {
+    margin-left: 100px;
+
+
+}
+
+.button {
+    background-color: peachpuff;
+    color: rgb(86, 189, 189);
+    height: 40px;
+    width: 80px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.buttons {
+    height: 40px;
+    width: 80px;
+    background-color: rgba(243, 234, 234, 0.705);
+    border: 0;
+    border-radius: 5px;
+}
+
+.popular-container {
+    justify-content: space-evenly;
+    margin-left: 60px;
+}
+
+.pic1 {
+    background-image: url(../Images/product-1-1.jpg);
+    height: 250px;
+    width: 250px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.pic1:hover {
+    background-image: url(../Images/product-1-2.jpg);
+    background-position: right;
+}
+
+.popular {
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 320px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.hot {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    margin-top: -270px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.hot1:hover {
+    background-color: pink;
+    color: white;
+}
+
+.pic2 {
+    background-image: url(../Images/product-2-1.jpg);
+    height: 250px;
+    width: 250px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.pic2:hover {
+    background-image: url(../Images/product-2-2.jpg);
+    background-position: right;
+}
+
+.pic3 {
+    background-image: url(../Images/product-3-1.jpg);
+    height: 250px;
+    width: 250px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.pic3:hover {
+    background-image: url(../Images/product-3-2.jpg);
+    background-position: right;
+}
+
+.pic4 {
+    background-image: url(../Images/product-4-1.jpg);
+    height: 250px;
+    width: 250px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.pic4:hover {
+    background-image: url(../Images/product-4-2.jpg);
+    background-position: right;
+}
+
+.pic5 {
+    background-image: url(../Images/product-5-1.jpg);
+    height: 250px;
+    width: 250px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.pic5:hover {
+    background-image: url(../Images/product-5-2.jpg);
+    background-position: right;
+}
+
+.pic6 {
+    background-image: url(../Images/product-6-1.jpg);
+    height: 250px;
+    width: 250px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.pic6:hover {
+    background-image: url(../Images/product-6-2.jpg);
+    background-position: right;
+}
+
+.pic7 {
+    background-image: url(../Images/product-7-1.jpg);
+    height: 250px;
+    width: 250px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.pic7:hover {
+    background-image: url(../Images/product-7-2.jpg);
+    background-position: right;
+}
+
+.pic8 {
+    background-image: url(../Images/product-8-1.jpg);
+    height: 250px;
+    width: 250px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 20px;
+
+}
+
+.pic8:hover {
+    background-image: url(../Images/product-8-2.jpg);
+    background-position: right;
+}
+
+.time {
+    background-color: rgb(71, 143, 143);
+    border: 0;
+    color: white;
+    height: 35px;
+    width: 40px;
+    border-radius: 3px;
+    /* padding-left: 30px; */
+}
+
+.banner-1 {
+    background-image: url(../Images/deals-1.jpg);
+    height: 380px;
+    width: 590px;
+    position: absolute;
+    top: 2490px;
+    left: 100px;
+    padding-left: 45px;
+}
+.banner-2{
+   justify-content: space-evenly;
+   
+}
+.women-clothing{
+    background-image: url(../Images/deals-2\ \(1\).png);
+    padding-left: 45px;
+    height: 380px;
+    width: 590px;
+    position: absolute;
+    left: 800px;
+    top:2490px ;
+}
+.New-arrivals{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+    margin-left: 100px;
+    margin-right: 70px;
+    /* border: 2px solid grey; */
+    border-radius: 20px;
+    width: 200px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.pic1-1 {
+    background-image: url(../Images/product-1-1.jpg);
+    height: 200px;
+    width: 220px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 5px;
+    border-radius: 20px;
+    /* padding-left: 50px; */
+}
+
+.pic1-1:hover {
+    background-image: url(../Images/product-1-2.jpg);
+    /* background-position: right; */
+}
+.pic2-1 {
+    background-image: url(../Images/product-2-1.jpg);
+    height: 200px;
+    width: 220px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.pic2-1:hover {
+    background-image: url(../Images/product-2-2.jpg);
+    /* background-position: right; */
+}
+
+.pic3-1 {
+    background-image: url(../Images/product-3-1.jpg);
+    height: 200px;
+    width: 220px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.pic3-1:hover {
+    background-image: url(../Images/product-3-2.jpg);
+    /* background-position: right; */
+}
+
+.pic4-1 {
+    background-image: url(../Images/product-4-1.jpg);
+    height: 200px;
+    width: 220px;
+    transition: background-image 0.7s ease-in;
+    background-size: cover;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.pic4-1:hover {
+    background-image: url(../Images/product-4-2.jpg);
+    /* background-position: right; */
+}
+.hot-1{
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    margin-top: -210px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.hot-release{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    gap: 15px;
+    position: absolute;
+    left: 75px;
+}
+.hot-data{
+    position: absolute;
+    left: 200px;
+    gap: 20px;
+}
+.deals-outlet{
+    position: absolute;
+    left: 710px;
+    top: 3495px;
+    gap: 20px;
+}
+.Top-selling{
+    position: absolute;
+    left: 1250px;
+    top: 3495px;
+    gap: 20px;
+}
+.Trendy{
+position: absolute;
+    left: 190px;
+    gap: 20px;
+    top: 3950px;    
+}
+.email{
+    height: 30px;
+    width: 240px;
+    background-color: white;
+    border: 0;
+    margin-left: 990px;
+}
+.subscribe{
+height: 32px;
+width: 100px;
+background-color: black;
+color: white;
+border: 0;
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+position: absolute;
+top: 4360px;
+left:1200px ;
+}
+footer{
+background-color: white;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+margin-top:0px;
+}
+.two{
+height: 50px;
+margin-top: 20px;
+}
+nav{
+margin: auto;
+grid-template-columns: 25% 25% 25% 25%;
+font-size: 10px;
+color: gray;
+}
+ul a{
+color: black;
+text-decoration: none;
+}
+.section{
+height: 100px;
+width: 400px;
+}
+.ll :hover{
+color: orangered;
+}

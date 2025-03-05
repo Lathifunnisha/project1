@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file2</title>
+    <style>
+        header {
+        display: flex;
+        padding-left: 30px;
+        justify-content: baseline;
+        }
+        nav {
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        a {
+            padding: 25px;
+        }
+        nav a:hover {
+            color: rgb(25, 226, 226);
+        }
+        .search {
+            margin-right: 100px;
+            margin-top: 20px;
+        }
+        .search-bar {
+            position: absolute;
+            left: 1001px;
+        }
+        .icons {
+            display: flex;
+            height: 20px;
+            padding-top: 18px;
+            padding-right: 320px;
+            gap:35px;
+        }
+        .home{
+            margin-top: 60px;
+            background-color: rgb(223, 221, 221);
+            height: 50px;
+            padding-left: 70px;
+            padding-top: 7px;
+        }
+        .home{
+            margin-top: 60px;
+            background-color: rgb(223, 221, 221);
+            height: 50px;
+            padding-left: 70px;
+            padding-top: 7px;
+        }
+
+        .email{
+        height: 30px;
+        width: 240px;
+        background-color: white;
+        border: 0;
+        margin-left: 990px;
+        }
+        .subscribe{
+        height: 32px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        border: 0;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+        position: absolute;
+        top: 2130px;
+        left:1200px ;
+        }
+        footer{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-top:0px;
+        }
+        .two{
+        height: 50px;
+        margin-top: -20px;
+        }
+        nav{
+        margin: auto;
+        grid-template-columns: 25% 25% 25% 25%;
+        font-size: 10px;
+        color: gray;
+        }
+        ul a{
+        color: black;
+        text-decoration: none;
+        }
+        .section{
+        height: 100px;
+        width: 400px;
+        }
+        .ll :hover{
+        color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../IMAGES/logo.png" height="45px" style="margin-left: 70px;">
+        <nav style="font-size: 15px;">
+            <a href="./home page.html" style="text-decoration: none;color: black;">Home</a>
+            <a href="./shop.html"  style="text-decoration: none;color: black;">Shop</a>
+            <a href="./My account.html"  style="text-decoration: none;color: black;">My Account</a>
+            <a href="./Compare.html"  style="text-decoration: none;color: black;">Compare</a>
+            <a style="color: rgb(37, 112, 112);text-decoration: none;" href="../project/login.html">Login</a>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="search for the items" style="margin-left: 45PX;">
+            <img src="../Images/search.png" class="search-bar">
+        </div>
+        <div class="icons">
+            <img src="../IMAGES/icon-heart (1).svg">
+            <img src="../Images/icon-cart (1).svg">
+        </div>
+
+    </header>
+    <div class="home">
+        <p>Home > Login / Register</p>
+    </div>
+    <div  style="border: 1px solid grey; width: 600px; margin-top: 60px; margin-left: 70px; padding-top: -20px; position: absolute; padding-right: -60px; padding-bottom: 55px; border: 1px solid gray; border-radius: 10px;">
+        <h3 style="font-size: 25px; margin-left: 70px; margin-top: 50px;"> LOGIN</h3>
+        <input type="email" placeholder="Your Email" style="height: 40px; width: 450px; margin-left: 70px; padding-left: 10px; position: absolute; border-radius: 5px; border: 1px solid grey;">
+        <input type="text" placeholder="Your Password" style="height: 40px; width: 450px; margin-left:70px; padding-left:10px ; margin-top: 70px; position: absolute; border-radius: 5px; border: 1px solid grey;">
+        <input type="button" value="Login" style="height: 50px; width: 100px; margin-top: 130px; margin-left: 69px; border-radius: 5px; color: white; background-color: rgb(35, 87, 77);"> 
+    </div>
+
+    <div style="margin-left: 760px;margin-top: 63px;border: 1px solid gray; padding: 30px;border-radius: 5px;margin-right: 240px;">
+        
+        <h2>Create an Account</h2>
+        <input type="text" placeholder="Username" style="height: 35px;border: 1px solid gray;width: 390px; border-radius: 5px;"><br><br>
+        <input type="email" placeholder="Your Email" style="height: 35px;border: 1px solid gray;width: 390px;border-radius: 5px;"><br><br>
+        <input type="password" placeholder="Your Password" style="height: 35px;border: 1px solid gray;width: 390px;border-radius: 5px;"><br><br>
+        <input type="password" placeholder="Confirm Password" style="height: 35px;border: 1px solid gray;width: 390px;border-radius: 5px;"><br><br>
+        <input type="submit" value="Submit&Register" style="background-color: rgb(24, 88, 88);height: 43px;width: 160px;color: white;border-radius: 5px;border: 0;">
+    </div>
+
+
+    <br>
+    <div style="display: flex; background-color: rgb(146, 181, 181);margin-top: 100px; ">
+        <div style="margin-top: -70px;">
+            <img src="../Images/icon-email.svg" height="45px" style="margin-left: 60px;margin-top: 80px;">
+            <p style="margin-left: 140px;margin-top: -40px;">Sign in to Newsletter</p>
+            <p style="margin-left: 490px;margin-top: -34px;">....and recieve $25 coupon for first shopping</p>
+            <input type="email" placeholder="Enter Your Email" class="email" style="position: absolute;margin-top: -45px; ">
+            <input type="button" value="Subscribe" class="subscribe" style="margin-top: -1370px;">
+        </div>
+    </div>
+    </div>
+    <footer>
+        <nav>
+        <img src="../Images/logo-white.png" class="two"/>
+        <p style="color: gray;font-size: 12px;">Contact</p>
+        <p><span style="font-size: 15px; color: rgb(7, 64, 64);">Address:</span><span style="font-size: 15px;">13 Tlemcen Road,Street 32,Beb-Wahren</span></p>
+        <p><span style="font-size: 15px; color: rgb(7, 64, 64);">Phone:</span><span style="font-size: 15px;">+01 2222 365/(+91)01 2345 6789</span></p>
+        <p><span style="font-size: 15px; color: rgb(7, 64, 64);">Hours:</span><span style="font-size: 15px;">10:00- 18:00,Mon-Sat</span></p>
+        <p style="font-size: 13px;">Follow Me</p>
+        <img src="../Images/icon-facebook.svg" height="15px">
+        <img src="../Images/icon-twitter.svg" height="15px">
+        <img src="../Images/icon-instagram.svg" height="15px">
+        <img src="../Images/icon-pinterest.svg" height="15px">
+        <img src="../Images/icon-youtube.svg" height="15px">
+        </nav>
+        <ul class="ll">
+            <h5 style="color: gray;">Address</h5>
+            <p style="margin-left: -20px;"><a href="#">About Us</a></p>
+            <p style="margin-left: -20px;"><a href="#">Delivery Information</a></p>
+            <p style="margin-left: -20px;"><a href="#">Privacy Policy</a></p>
+            <p style="margin-left: -20px;"><a href="#">Terms& Conditions</a></p>
+            <p style="margin-left: -20px;"><a href="#">Contact Us</a></p>
+            <p style="margin-left: -20px;"><a href="#">Support Center</a></p>
+        </ul>
+        <ul class="ll">
+            <h5 style="color: gray;">My Account</h5>
+            <p style="margin-left: -20px;"><a href="#">View Cart</a></p>
+            <p style="margin-left: -20px;"><a href="#">Sign In</a></p>
+            <p style="margin-left: -20px;"><a href="#">My Wishlist</a></p>
+            <p style="margin-left: -20px;"><a href="#">Track My Order</a></p>
+            <p style="margin-left: -20px;"><a href="#">Help</a></p>
+            <p style="margin-left: -20px;"><a href="#">Order</a></p>
+        </ul>
+        <ul type="none">
+            <h5 style="color: gray;">Secure Payed Gateways</h5>
+            <img src="../Images/payment-method.png">
+            
+        </ul>
+    </footer>
+</body>
+</html>
